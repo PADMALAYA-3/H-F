@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+* *::before *::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: rgb(193, 193, 235);
+  height: 100vh;
+  width: 100vw;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 30px;
+}
+header {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(29, 188, 135);
+}
+main {
+  height: 65%;
+  width: 100%;
+  background-color: rgb(193, 193, 235);
+  display: flex;
+  column-gap: 30px;
+}
+aside {
+  height: 65%;
+  width: 25%;
+  background-color: rgb(124, 220, 124);
+}
+article {
+  height: 65%;
+  width: 75%;
+  background-color: rgb(236, 176, 64);
+}
+footer {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(29, 188, 135);
+}
