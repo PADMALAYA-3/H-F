@@ -23,6 +23,10 @@ header {
   height: 12%;
   width: 100%;
   background-color: rgb(29, 188, 135);
+  padding: 1rem;
+  display: block;
+  color: azure;
+  text-align: center;
 }
 main {
   height: 65%;
@@ -35,14 +39,49 @@ aside {
   height: 100%;
   width: 22%;
   background-color: rgb(124, 220, 124);
+  padding-top: 10rem;
+  display: block;
+  color: azure;
+  text-align: center;
 }
 article {
   height: 100%;
   width: 72%;
   background-color: rgb(236, 176, 64);
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+}
+div1 {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  color: azure;
+  padding-top: 10rem;
+}
+div2 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.image1 {
+  height: 50%;
+  width: 30%;
+  background-color: rgb(213, 213, 79);
+  padding: 5rem;
+  display: block;
+  color: azure;
+  text-align: center;
 }
 footer {
   height: 12%;
   width: 100%;
   background-color: rgb(29, 188, 135);
+  padding: 1rem;
+  display: block;
+  color: azure;
+  text-align: center;
 }
